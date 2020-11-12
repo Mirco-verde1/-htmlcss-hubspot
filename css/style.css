@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* utility class */
+a{
+	text-decoration: none;
+}
+
+ul li{display: inline-block;
+padding: 10px;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearfix::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.container{
+	width:1000px;
+	min-width:1000px;
+	margin: 0 auto;
+}
+.en{
+	display: inline-block;
+	padding: 15px;
+}
+
+.bord{
+	border-right:1px solid black;
+	padding-right: 10px;
+	height: 3px;
+	line-height: 3px;
+}
+
+.log{
+	border-radius:3px;
+	border: 1px solid  #ff4d4d;
+	background: #fff;
+	padding: 5px;
+}
+.log2{
+	border-radius:3px;
+	background:  #ff4d4d; ;
+	padding:4px 6px 4px 6px;
+	color: #fff;
+}
+
+/* end utility class */
+
+header{
+	width: 100%;
+	height:700px;
+	background-image: url(../img/jumbotron.png);
+	background-position:right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* PARTE SUPERIORE HEADER */
+
+/* PRIMA ROW HEADER COLOR VERDE CHIARO */
+.top-header{
+	width: 100%;
+	height:80px;
+	background: #66ffff;
+	padding-top: 10px;
+	border-bottom: 2px solid #666666;
+}
+
+.content-top-header a{
+	color:#737373;
+}
+
+/* SECONDA ROW HEADER BIANCA */
+.top-header-second{
+	width: 100%;
+	height:80px;
+	position: relative;
+	padding: 20px;
+	background: #fff;
+}
+
+.logo-hub img{
+	width: 70px;
+	height:100px;
+	position: absolute;
+	top:0px;
+	}
+
+.right-nav{
+	position: relative;
+	top: 10px;
+}
+
+/* FINE PARTE SUPERIORE HEADER */
+
+/* TESTO BACKGROUND */
+
+.text-background{
+	width: 500px;
+	height: 100px;
+	font-size: 30px;
+	padding-top: 50px;
+		color:#737373;
+}
+
+.market-sales{
+padding-top:30px;
+color:#737373;
+}
+
+.get-hubfree{
+	margin-top: 10px;
+	width: 120px;
+}
+
+.get-hubfree a{
+		color:#737373;
+}
+
+.final-header{
+		width: 100%;
+		height:80px;
+		background:  #66ffff;
+}
