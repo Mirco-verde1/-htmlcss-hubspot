@@ -7,7 +7,9 @@
 a{
 	text-decoration: none;
 }
-
+.inline{
+	display: inline-block;
+}
 ul li{display: inline-block;
 padding: 10px;
 }
@@ -130,7 +132,7 @@ color:#737373;
 .get-hubfree a{
 		color:#737373;
 }
-
+/* FINE TESTO BACKGROUND */
 header:before{
 	content: "";
 	bottom: 0;
@@ -192,6 +194,7 @@ header:before{
 .popolar-feat{
 	width: 70%;
 	height: 299px;
+	padding-left: 0;
 }
 .popolar-feat h2{
 	padding: 40px;
@@ -201,10 +204,55 @@ header:before{
 	font-size: 15px;
 	padding-bottom: 10px;
 }
-.line{
-	width: 40px;
-	height: 10px;
-	border:1px solid black;
-	content: "";
+ul li span{
+	padding-left: 10px;
+}
+/* inizio box marketing sales e service hub */
+.conteiner-3box{
+	width: 100%;
+	height: 700px;
+	border: 1px solid black;
+	padding: 50px 0;
 
 }
+
+.box{
+	position: relative;
+	border: 1px solid black;
+	width: 30%;
+	height: 650px;
+	background:#fff;
+	margin-left:25px;
+	padding: 10px;
+}
+.box .top-box img{
+	position: relative;
+	left: 30%;
+	top: 10px;
+
+}
+
+.top-box{
+	width: 90%;
+	height: 50%;
+	background:#ccc;
+	margin: 10px auto;
+}
+
+.down-box{
+	border-top: 2px solid black;
+	height: 45%;
+	width:90%;
+	margin: 0 auto;
+	background: #ccc;
+}
+.top-box h3{
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
+
+
+
+
+/* fine box marcketing sales e service hub */
