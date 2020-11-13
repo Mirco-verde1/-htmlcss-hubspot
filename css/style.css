@@ -211,14 +211,12 @@ ul li span{
 .conteiner-3box{
 	width: 100%;
 	height: 700px;
-	border: 1px solid black;
 	padding: 50px 0;
 
 }
-
+/* caratteristiche dei 3 box */
 .box{
 	position: relative;
-	border: 1px solid black;
 	width: 30%;
 	height: 650px;
 	background:#fff;
@@ -235,24 +233,39 @@ ul li span{
 .top-box{
 	width: 90%;
 	height: 50%;
-	background:#ccc;
 	margin: 10px auto;
 }
 
 .down-box{
-	border-top: 2px solid black;
 	height: 45%;
 	width:90%;
 	margin: 0 auto;
-	background: #ccc;
 }
 .top-box h3{
 	text-align: center;
 	padding: 10px;
 	font-size: 25px;
 }
+.top-box p{
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+.down-box ul li{
+	display: block;
+	padding-top: 3px;
+}
 
+.down-box ul li:first-child{
+	padding-top: 30px;
+}
 
+.down-box h3{
+	text-align: center;
+  color:#4d4d4d;
+}
 
-
+.down-box .log2{
+	text-align: center;
+}
 /* fine box marcketing sales e service hub */
