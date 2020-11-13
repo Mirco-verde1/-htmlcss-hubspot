@@ -296,4 +296,31 @@ ul li span{
 }
 /* fine text container celestre */
 
-.container-tab
+.container-tab{
+	width: 802px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 20px auto;
+}
+/* contenuto nei box */
+.box-container{
+	width: 200px;
+	height: 150px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.inside-box{
+	width: 60px;
+	height: 60px;
+	margin: 2px auto;
+}
+
+.box-container h3{
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+
+}
+
+/* fine contenuto nei box */
