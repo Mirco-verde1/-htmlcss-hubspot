@@ -210,7 +210,7 @@ ul li span{
 /* inizio box marketing sales e service hub */
 .conteiner-3box{
 	width: 100%;
-	height: 700px;
+	height: 620px;
 	padding: 50px 0;
 
 }
@@ -218,7 +218,7 @@ ul li span{
 .box{
 	position: relative;
 	width: 30%;
-	height: 650px;
+	height: 600px;
 	background:#fff;
 	margin-left:25px;
 	padding: 10px;
@@ -229,17 +229,19 @@ ul li span{
 	top: 10px;
 
 }
-
+/* parte superiore dei 3 box */
 .top-box{
 	width: 90%;
 	height: 50%;
 	margin: 10px auto;
 }
-
+ /* parte inferiore dei 3 box */
 .down-box{
 	height: 45%;
 	width:90%;
 	margin: 0 auto;
+	position: relative;
+	border-top: 2px solid black;
 }
 .top-box h3{
 	text-align: center;
@@ -263,9 +265,35 @@ ul li span{
 .down-box h3{
 	text-align: center;
   color:#4d4d4d;
+	padding-top: 30px;
 }
 
 .down-box .log2{
-	text-align: center;
+	position: relative;
+	left: 30%;
+	top: 20px;
 }
 /* fine box marcketing sales e service hub */
+
+/* start container celeste */
+
+/* text container celeste */
+.container-celeste{
+	width: 100%;
+	height: 620px;
+	background: #0099ff;
+	margin-top: 60px;
+}
+.text-container h2, p{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.text-container p{
+	font-size: 25px;
+}
+/* fine text container celestre */
+
+.container-tab
