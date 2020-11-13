@@ -55,15 +55,18 @@ padding: 10px;
 	padding:4px 6px 4px 6px;
 	color: #fff;
 }
+.pad30{
+	padding: 30px;
+}
 
 /* end utility class */
 
 header{
+	position: relative;
 	width: 100%;
 	height:700px;
 	background-image: url(../img/jumbotron.png);
-	background-position:right;
-	background-size: cover;
+	background-position:right bottom;
 	background-repeat: no-repeat;
 }
 /* PARTE SUPERIORE HEADER */
@@ -110,17 +113,17 @@ header{
 	width: 500px;
 	height: 100px;
 	font-size: 30px;
-	padding-top: 50px;
+	padding-top: 100px;
 		color:#737373;
 }
 
 .market-sales{
-padding-top:30px;
+padding-top:60px;
 color:#737373;
 }
 
 .get-hubfree{
-	margin-top: 10px;
+	margin-top: 30px;
 	width: 120px;
 }
 
@@ -128,12 +131,16 @@ color:#737373;
 		color:#737373;
 }
 
-.final-header{
-		width: 100%;
-		height:80px;
-		background:  #66ffff;
-		border-bottom: 2px solid ;
-		color:  #666666;
+header:before{
+	content: "";
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height:80px;
+	background:  #66ffff;
+	border-top: 3px solid ;
+	color:  #33475b;
 }
 
 /* POWERFUL ALONE. BETTER TOGETHER PART*/
@@ -142,8 +149,8 @@ color:#737373;
 }
 
 .square-img img{
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 }
 
 .square-img{
@@ -164,4 +171,40 @@ color:#737373;
 	padding: 15px;
 	text-align: center;
 	font-size: 20px
+}
+/* end text part */
+
+/* box free hub */
+
+.box-free-hubspot{
+	height: 300px;
+	width: 100%;
+	margin-top: 30px;
+	background: #fff;
+}
+/* book e pulsante learn more */
+.book-learn{
+	width: 30%;
+	height: 200px;
+	padding-top:80px;
+}
+/* freehub e contact, deals, task */
+.popolar-feat{
+	width: 70%;
+	height: 299px;
+}
+.popolar-feat h2{
+	padding: 40px;
+	padding-left: 0;
+}
+.popolar-feat p{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.line{
+	width: 40px;
+	height: 10px;
+	border:1px solid black;
+	content: "";
+
 }
