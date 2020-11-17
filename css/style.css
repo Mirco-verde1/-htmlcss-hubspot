@@ -9,6 +9,7 @@
 /* utility class */
 a{
 	text-decoration: none;
+	padding-right: 10px;
 }
 .inline{
 	display: inline-block;
@@ -275,6 +276,7 @@ padding-right: 10px;
 	height: 600px;
 	background:#fff;
 	margin: 0 57px;
+	text-align: center;
 }
 
 
@@ -297,6 +299,7 @@ padding-right: 10px;
 	margin: 0 auto;
 	position: relative;
 	border-top: 2px solid #4d4d4d;
+	text-align: left;
 }
 .top-box h3{
 	text-align: center;
