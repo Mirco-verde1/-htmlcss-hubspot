@@ -14,7 +14,6 @@ a{
 	display: inline-block;
 }
 ul li{display: inline-block;
-padding: 10px;
 }
 .color{
 color:#4d4d4d;
@@ -45,9 +44,9 @@ color:#4d4d4d;
 }
 
 .container{
-	width:1100px;
-	max-width:1100px;
-	min-width: 1100px;
+	width:1150px;
+	max-width:1150px;
+
 	margin: 0 auto;
 }
 
@@ -66,6 +65,10 @@ color:#4d4d4d;
 	background:  #ff4d4d; ;
 	padding:4px 6px 4px 6px;
 	color: #fff;
+}
+
+.pad{
+	padding: 10px;
 }
 .pad30{
 	padding: 30px;
@@ -116,7 +119,6 @@ header{
 }
 
 .logo-hub img{
-	width: 70px;
 	height:100px;
 	position: absolute;
 	top:-15px;
@@ -146,13 +148,13 @@ text-align: left;
 
 .get-hubfree{
 	margin-top: 30px;
-	width: 120px;
+	width: 143px;
 	margin-bottom: 30px;
 }
 
 .get-hubfree a{
 		color:#fff;
-		width: 60px;
+		font-size: 14px;
 	}
 
 .container span{
@@ -235,11 +237,16 @@ header:before{
   color:#4d4d4d;
 	text-align: left;
 }
-ul li span{
-	padding-left: 15px;
-}
+
 ul li img{
 vertical-align: middle;
+padding-right: 10px;
+}
+
+.popolar-feat ul li{
+	position: relative;
+	top:15px;
+	margin-right: 16px;
 }
 
 .line{
@@ -255,14 +262,22 @@ vertical-align: middle;
 }
 /* caratteristiche dei 3 box */
 .box{
-	top: 30px;
+	top: 40px;
 	position: relative;
 	width: 30%;
 	height: 600px;
 	background:#fff;
-	margin-left:25px;
-	padding: 10px;
 }
+.box-centrale{
+	top: 40px;
+	position: relative;
+	width: 30%;
+	height: 600px;
+	background:#fff;
+	margin: 0 57px;
+}
+
+
 .box .top-box img{
 	position: relative;
 	left: 30%;
@@ -422,8 +437,12 @@ vertical-align: middle;
 
 .box-logo-right img{
 	width: 144px;
-	height: 60px;
 	padding: 12px;
+}
+
+.box-logo-right:first-child{
+	position: relative;
+	bottom:10px;
 }
 
 /* container bianco parte bassa */
@@ -517,6 +536,4 @@ padding: 40px 0 40px 0;
 
  /* parte inferiore footer */
  .row-down-footer{
-	 width: 100%;
-	 padding:30px 0;
- }
+padding:30px 0; }
